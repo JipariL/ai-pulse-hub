@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Latest AI news from top sources with search, filter, and auto-refresh. Plus affiliate AI tools." />
@@ -144,15 +144,6 @@
       height: 170px;
       object-fit: cover;
       background-color: #333;
-    }
-
-    .placeholder-img {
-      background: linear-gradient(45deg, #1a1a1a, #2a2a2a);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #666;
-      font-size: 0.9rem;
     }
 
     .news-content {
@@ -327,12 +318,12 @@
         <div class="affiliate-item">
           <h3>ElevenLabs</h3>
           <p>Generate realistic AI voices and sound effects.</p>
-          <a href="https://elevenlabs.io/?ref=your-affiliate-id" class="btn" target="_blank">Try Voice AI</a>
+          <a href="https://elevenlabs.io/?ref=your-affiliate-id" class="btn" target="https://try.elevenlabs.io/vyyiugsdf3zb">Try Voice AI</a>
         </div>
         <div class="affiliate-item">
-          <h3>Runway ML</h3>
-          <p>AI-powered video editing and generation suite.</p>
-          <a href="https://runwayml.com/?ref=your-affiliate-id" class="btn" target="_blank">Edit Videos</a>
+          <h3>Veed.io</h3>
+          <p>Add subtitles, edit videos, and generate AI voiceovers in seconds.</p>
+          <a href="https://veed.io" class="btn" target="_blank">Edit Videos</a>
         </div>
       </div>
     </section>
@@ -423,7 +414,7 @@
         return matchesSearch && matchesFilter;
       });
 
-      // Sort by date
+      // Sort by date (newest first)
       filtered.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
       renderNews(filtered);
@@ -473,14 +464,13 @@
       document.getElementById("search-input").addEventListener("input", applyFilters);
       document.getElementById("filter-source").addEventListener("change", applyFilters);
 
-      // Auto-refresh every 15 minutes (900,000 ms)
+      // Auto-refresh every 15 minutes
       setInterval(() => {
         console.log("Auto-refreshing news...");
         fetchAllNews();
-      }, 900000); // 15 * 60 * 1000
+      }, 900000); // 15 minutes
     });
   </script>
 
 </body>
-
 </html>
