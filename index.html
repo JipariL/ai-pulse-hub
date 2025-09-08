@@ -332,10 +332,14 @@
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 AI Pulse Hub — Curated AI news from top global sources.</p>
-    <p><strong>Auto-refreshes every 15 minutes.</strong> Disclosure: Some links may be affiliate links.</p>
-    <p><a href="#privacy">Privacy Policy</a> | <a href="#contact">Contact</a></p>
-  </footer>
+  <p>© 2025 AI Pulse Hub — Curated AI news from top global sources.</p>
+  <p><strong>Auto-refreshes every 30 minutes.</strong> Disclosure: Some links may be affiliate links.</p>
+  <p>
+    <a href="#privacy">Privacy Policy</a> | 
+    <a href="#contact">Contact</a> | 
+    <a href="affiliates.html"><strong>Recommended Tools</strong></a>
+  </p>
+</footer>
 
   <!-- JavaScript with Search, Filter & Auto-Refresh -->
   <script>
@@ -468,11 +472,12 @@
       setInterval(() => {
         console.log("Auto-refreshing news...");
         fetchAllNews();
-      }, 900000); // 15 minutes
+      }, 1800000); // 15 minutes
     });
   </script>
 
 </body>
 </html>
+
 
 
