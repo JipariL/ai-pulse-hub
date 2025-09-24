@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="About AI Pulse Hub: mission, editorial approach, sourcing, and disclaimers." />
+  <title>AI Pulse Hub | About</title>
+  <style>
+    :root { --gold:#D4AF37; --black:#000; --dark-gray:#111; --light-gray:#222; }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:var(--black);color:#fff;line-height:1.6}
+    a{color:var(--gold);text-decoration:none;transition:color .3s}
+    a:hover{color:#fff}
+    header{background:var(--black);padding:1.8rem 0;border-bottom:2px solid var(--gold);text-align:center}
+    header h1{color:var(--gold);font-size:2.4rem}
+    header p{color:#ccc;margin-top:.4rem}
+    nav{background:var(--dark-gray);padding:1.2rem 0}
+    nav ul{display:flex;justify-content:center;list-style:none;gap:2.5rem;flex-wrap:wrap}
+    nav a{color:#ddd;font-weight:600;font-size:1.05rem}
+    nav a:hover{color:var(--gold)}
+    .container{max-width:900px;margin:2rem auto;padding:0 1.5rem}
+    h2{color:var(--gold);font-size:1.6rem;margin:2rem 0 1rem}
+    p{margin:.7rem 0;color:#ddd}
+    ul{margin:.4rem 0 1rem 1.2rem}
+    li{margin:.3rem 0}
+    .note{background:var(--light-gray);border:1px solid #333;border-radius:10px;padding:1rem;margin-top:1rem}
+    footer{text-align:center;padding:2.5rem 0;margin-top:3rem;background:var(--dark-gray);color:#aaa;border-top:1px solid #333}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Pulse Hub</h1>
+    <p>Latest Breakthroughs • Real-Time Updates • Top AI Tools</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html#news">News</a></li>
+      <li><a href="index.html#affiliates">Tools</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Who We Are</h2>
+    <p><strong>AI Pulse Hub</strong> curates near‑real‑time AI news and publishes practical blog articles for everyday readers. Our design prioritizes clarity: a dark, gold‑accented UI, clean typography, and fast access to headlines, reviews, and buying tips.</p>
+
+    <h2>What We Publish</h2>
+    <ul>
+      <li><strong>News:</strong> A live grid that aggregates notable AI headlines from reputable sources.</li>
+      <li><strong>Blog:</strong> Deep‑dive posts like <em>“New AI Products for the Consumers in 2025”</em> covering categories, benefits, risks, and how to choose.</li>
+      <li><strong>Tools:</strong> Hand‑picked affiliate links to popular AI services for art, voice, and video.</li>
+    </ul>
+
+    <h2>How We Source Information</h2>
+    <p>We collect information from <em>multiple third‑party sources</em> including publisher RSS feeds (e.g., TechCrunch, Ars Technica, VentureBeat, Nature MI), official research and company blogs (Google, OpenAI, Hugging Face, Stanford HAI), and other public materials. Blog posts synthesize these materials for non‑technical readers.</p>
+
+    <h2>Editorial Approach</h2>
+    <ul>
+      <li>Summaries emphasize <strong>accuracy, context, and usability</strong>.</li>
+      <li>Where relevant, we include <strong>pros/cons, risks, and buyer checklists</strong>.</li>
+      <li>We avoid speculative claims and label opinions clearly.</li>
+    </ul>
+
+    <h2>Affiliate Disclosure</h2>
+    <p>Some links on this site are affiliate links. If you click and purchase, we may earn a commission at no extra cost to you. This supports our curation and writing.</p>
+
+    <h2>Disclaimer</h2>
+    <div class="note">
+      <p><strong>No Warranty • No Liability.</strong> The information on this site is collected from multiple external sources and is provided for informational purposes only. While we strive for accuracy, <strong>AI Pulse Hub and its operator make no representations or warranties</strong> about completeness, reliability, timeliness, or accuracy. <strong>We are not responsible</strong> for any errors, omissions, or outcomes arising from the use of this content. Always verify details (features, pricing, availability, policies) with the original publisher or vendor before making decisions.</p>
+    </div>
+
+    <h2>Contact</h2>
+    <p>Questions or corrections? Email the site operator or open an issue in the project repository.</p>
+
+    <p style="margin-top:1rem"><a href="index.html">← Home</a> • <a href="blog.html">Blog</a></p>
+  </div>
+
+  <footer>
+    <p>© 2025 AI Pulse Hub — About</p>
+  </footer>
+</body>
+</html>
